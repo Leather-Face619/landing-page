@@ -2,6 +2,10 @@
     font-family: raw ;
     src: url(./RawDeltaHandStreet-DEMO.ttf);
 }
+@font-face {
+    font-family: kajiro;
+    src: url(./kajiro.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -87,14 +91,49 @@ position: absolute;
     position: relative;
     right: 0;
     width: 60%;
-    height: 100%;
-    /* background-color: rgb(10, 22, 185); */
+    height: 100vh;
     overflow: hidden;
 }
-#Rcenter>h1{
+#Rcback{
+    
+    letter-spacing: 9px;
+   min-height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index:9;
+  
+}
+#Rctop{
+    /* background-color: palegoldenrod; */
+    width: 70%;
+    height: 50%;
+    font-family: kajiro;
+    font-weight: 100;
+    font-stretch: 60px;
+    left: 10%;
+    top: 32%;
+    z-index: 999;
+    position: absolute;
+}
+#Rctop>h3{
+    font-size: 3vw;
+  
+}
+#Rctop>p{
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.63);
+    padding-bottom: 20px;
+    font-size: 1vw;
+}
+#Rctop>h4{
+    
+    font-size: 3vw;
+}
+#Rcenter h1{
+    color: rgba(189, 114, 2, 0);
     align-items: center;
-/* margin-left: -10px; */
+   
   font-family: raw;
     font-size: 30vw;
-
+-webkit-text-stroke: 4px rgba(255, 255, 255, 0.178);
 }
