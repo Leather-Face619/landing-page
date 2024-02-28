@@ -1,0 +1,100 @@
+@font-face {
+    font-family: raw ;
+    src: url(./RawDeltaHandStreet-DEMO.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#Lnav{
+    height: 100%;
+   
+}
+#Lnav img{
+    height: 80%;
+    
+}
+#Rnav{
+    height: 100%;
+   
+}
+#Rnav i{
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+}
+#center{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(68, 153, 51); */
+    /* position: relative; */
+    display: flex;
+    padding-top: 60px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#Lcenter{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: rebeccapurple;
+    
+}
+#Lcenter #image{
+    width: 100%;
+    height: 400px;
+    background-color: palevioletred;
+    position: absolute;
+    left: -25%;
+}
+#image>img{
+    width: 150%;
+}
+#box{
+  left: 50px;
+  top: 450px;
+
+    position: absolute;
+   
+    width: 2.4vw;
+   
+}
+#box>p{
+    
+    height: 100%;
+    padding: 7px;
+     border: 0.5px solid rgba(255, 255, 255, 0.637);
+     font-size: 10px;
+}
+#Rcenter{
+    position: relative;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(10, 22, 185); */
+    overflow: hidden;
+}
+#Rcenter>h1{
+    align-items: center;
+/* margin-left: -10px; */
+  font-family: raw;
+    font-size: 30vw;
+
+}
